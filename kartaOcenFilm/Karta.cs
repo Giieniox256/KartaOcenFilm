@@ -6,9 +6,14 @@ namespace kartaOcenFilm
 {
     public class Karta
     {
-        List<float> oceny = new List<float>();
+
+        public Karta()
+        {
+            oceny = new List<float>();
+        }
 
 
+        List<float> oceny;
 
         /// <summary>
         /// dodaje ocene

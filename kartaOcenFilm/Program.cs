@@ -8,6 +8,8 @@ namespace kartaOcenFilm
         {
             Karta karta = new Karta();
             Karta kartaUzytkownika = new Karta();
+            int lTest1 = 1;
+            _ = lTest1 < 5 ? "Mniej" : "więcej";
 
             karta.DodajOcene(5);
             karta.DodajOcene(3);
@@ -50,6 +52,7 @@ namespace kartaOcenFilm
             Console.WriteLine("Nawiększa ocena to: " + kartaUzytkownika.MaxOcena());
             Console.WriteLine("Najmniejsza ocena to: " + kartaUzytkownika.MinOcena());
 
+            
 
         }
     }

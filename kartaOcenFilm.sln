@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kartaOcenFilm", "kartaOcenFilm\kartaOcenFilm.csproj", "{2FBA2963-F37F-4DC5-8080-3A08EEE90424}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "konstruktor", "konstruktor\konstruktor.csproj", "{CD2719D8-EC51-463B-AE69-2FCCC0C24001}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -13,5 +15,9 @@ Global
 		{2FBA2963-F37F-4DC5-8080-3A08EEE90424}.Debug|anycpu.Build.0 = Debug|anycpu
 		{2FBA2963-F37F-4DC5-8080-3A08EEE90424}.Release|anycpu.ActiveCfg = Release|anycpu
 		{2FBA2963-F37F-4DC5-8080-3A08EEE90424}.Release|anycpu.Build.0 = Release|anycpu
+		{CD2719D8-EC51-463B-AE69-2FCCC0C24001}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{CD2719D8-EC51-463B-AE69-2FCCC0C24001}.Debug|anycpu.Build.0 = Debug|anycpu
+		{CD2719D8-EC51-463B-AE69-2FCCC0C24001}.Release|anycpu.ActiveCfg = Release|anycpu
+		{CD2719D8-EC51-463B-AE69-2FCCC0C24001}.Release|anycpu.Build.0 = Release|anycpu
 	EndGlobalSection
 EndGlobal
