@@ -1,0 +1,6 @@
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/kartaOcenFilm/bin/Debug/kartaOcenFilm.exe
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/kartaOcenFilm/bin/Debug/kartaOcenFilm.pdb
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/kartaOcenFilm/obj/Debug/kartaOcenFilm.csprojAssemblyReference.cache
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/kartaOcenFilm/obj/Debug/kartaOcenFilm.csproj.CoreCompileInputs.cache
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/kartaOcenFilm/obj/Debug/kartaOcenFilm.exe
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/kartaOcenFilm/obj/Debug/kartaOcenFilm.pdb
