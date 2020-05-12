@@ -6,6 +6,7 @@ namespace konstruktor
     {
         public static void Main(string[] args)
         {
+            //konstrukor wywołanie
             osoba osoba1 = new osoba();
             osoba osoba2 = new osoba("Jan","Kowalski");
             osoba osoba3 = new osoba("toma","madzur","Ibiza");

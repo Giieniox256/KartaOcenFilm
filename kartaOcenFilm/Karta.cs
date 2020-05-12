@@ -10,10 +10,12 @@ namespace kartaOcenFilm
         public Karta()
         {
             oceny = new List<float>();
+            licznik++;
         }
 
-
-        List<float> oceny;
+        public static float wersja = 0.1f;
+        public static double licznik = 0;
+        private List<float> oceny;
 
         /// <summary>
         /// dodaje ocene
@@ -21,7 +23,11 @@ namespace kartaOcenFilm
         /// <param name="ocena"> nowa ocena</param>
         public void DodajOcene(float ocena)
         {
-            oceny.Add(ocena);
+            if (ocena >0 && ocena <= 10)
+            {
+                oceny.Add(ocena);
+            }
+            
         }
         /// <summary>
         /// oblicza srednią ocen
@@ -55,8 +61,21 @@ namespace kartaOcenFilm
         {
             return oceny.Min();
         }
-    
-           
-        
+
+        internal KartaStatystyki Obliczstatystyki() //hermetyzacja
+        {
+            KartaStatystyki stat = new KartaStatystyki();
+
+            float suma = 0;
+
+            foreach (var ocena in oceny)
+            {
+                suma += ocena;
+            }
+            stat.sredniaOcena = suma / oceny.Count();
+            stat.minimalnaOcena = oceny.Min();
+            stat.maksymalnaOcena = oceny.Max();
+            return stat;
+        }
     }
 }

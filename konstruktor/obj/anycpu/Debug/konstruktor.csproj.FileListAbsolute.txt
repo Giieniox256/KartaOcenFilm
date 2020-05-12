@@ -1,0 +1,5 @@
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/konstruktor/bin/Debug/konstruktor.exe
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/konstruktor/bin/Debug/konstruktor.pdb
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/konstruktor/obj/anycpu/Debug/konstruktor.csproj.CoreCompileInputs.cache
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/konstruktor/obj/anycpu/Debug/konstruktor.exe
+/Users/petro/Pierdoly/Kurs_netCore/Projekty_C#_proste/kartaOcenFilm/konstruktor/obj/anycpu/Debug/konstruktor.pdb

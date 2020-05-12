@@ -8,19 +8,18 @@ namespace kartaOcenFilm
         {
             Karta karta = new Karta();
             Karta kartaUzytkownika = new Karta();
-            int lTest1 = 1;
-            _ = lTest1 < 5 ? "Mniej" : "więcej";
 
             karta.DodajOcene(5);
             karta.DodajOcene(3);
             karta.DodajOcene(8);
             karta.DodajOcene(3.5f);
             karta.DodajOcene(6.5f);
+            
 
             float srednia = karta.ObliczSrednia();
             float maxVal = karta.MaxOcena();
             float minVal = karta.MinOcena();
-
+            #region wpisywanie danych
             for (; ; )
             {
                 float ocena;
@@ -51,8 +50,34 @@ namespace kartaOcenFilm
             Console.WriteLine("Srednia liczba to: " + kartaUzytkownika.ObliczSrednia());
             Console.WriteLine("Nawiększa ocena to: " + kartaUzytkownika.MaxOcena());
             Console.WriteLine("Najmniejsza ocena to: " + kartaUzytkownika.MinOcena());
+            #endregion
 
-            
+            KartaStatystyki statystyki = karta.Obliczstatystyki();
+
+            Karta karta2 = new Karta();
+
+            karta2.DodajOcene(1);
+            karta2.DodajOcene(5);
+            karta2.DodajOcene(9);
+            karta2.DodajOcene(2.5f);
+            karta2.DodajOcene(6.5f);
+
+            Console.WriteLine("Średnia to : {0}",statystyki.sredniaOcena);
+            Console.WriteLine("Minimalna to : {0}", statystyki.minimalnaOcena);
+            Console.WriteLine("Maksymalna to : {0}",statystyki.maksymalnaOcena);
+
+            KartaStatystyki statystyki2 = karta2.Obliczstatystyki();
+
+            Console.WriteLine("Średnia to : {0}", statystyki2.sredniaOcena);
+            Console.WriteLine("Minimalna to : {0}", statystyki2.minimalnaOcena);
+            Console.WriteLine("Maksymalna to : {0}", statystyki2.maksymalnaOcena);
+
+            Console.WriteLine(Karta.wersja); //wypisanie statycznej funkcji
+            Console.WriteLine("Ilość kart to: {0}",Karta.licznik);
+
+
+
+
 
         }
     }
