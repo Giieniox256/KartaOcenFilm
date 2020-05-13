@@ -16,6 +16,40 @@ namespace kartaOcenFilm
         public static float wersja = 0.1f;
         public static double licznik = 0;
         private List<float> oceny;
+        //public string Nazwa;
+        private string _nazwa;
+
+
+        public string Nazwa
+        {
+            get
+            {
+                return _nazwa.ToUpper();
+            }
+
+            set
+            {
+                if (!string.IsNullOrEmpty(value))
+                {
+                    if(_nazwa != value)
+                    {
+                        ZmianaNazwyEventArgs args = new ZmianaNazwyEventArgs();
+                        args.IstniejacaNazwa = _nazwa;
+                        args.NowaNazwa = value;
+
+                        //ZmianaNazwy(_nazwa, value);
+                        ZmianaNazwy(this, args);
+                    }
+                    _nazwa = value;
+                }
+            }
+
+        }
+        //DELEGAT
+        //public ZmianaNazwyDelegat ZmianaNazwy;
+
+        //zdarzenia
+        public event ZmianaNazwyDelegat ZmianaNazwy;
 
         /// <summary>
         /// dodaje ocene

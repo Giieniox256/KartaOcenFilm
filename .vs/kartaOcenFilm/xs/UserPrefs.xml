@@ -1,17 +1,21 @@
 ﻿<Properties StartupConfiguration="{2FBA2963-F37F-4DC5-8080-3A08EEE90424}|Default">
   <MonoDevelop.Ide.ItemProperties.kartaOcenFilm PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="kartaOcenFilm/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="kartaOcenFilm/ZmianaNazwyEventArgs.cs">
     <Files>
-      <File FileName="kartaOcenFilm/Program.cs" Line="54" Column="56" />
-      <File FileName="kartaOcenFilm/Karta.cs" Line="48" Column="1" />
-      <File FileName="kartaOcenFilm/KartaStatystyki.cs" />
+      <File FileName="kartaOcenFilm/Program.cs" Line="87" Column="52" />
+      <File FileName="kartaOcenFilm/Karta.cs" Line="44" Column="49" />
+      <File FileName="kartaOcenFilm/KartaStatystyki.cs" Line="7" Column="37" />
+      <File FileName="kartaOcenFilm/Zwierze.cs" Line="54" Column="30" />
+      <File FileName="kartaOcenFilm/NowaNazwaDelegat.cs" Line="4" Column="26" />
+      <File FileName="kartaOcenFilm/ZmianaNazwyEventArgs.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="kartaOcenFilm" expanded="True">
             <Node name="kartaOcenFilm" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="References" expanded="True" />
+              <Node name="ZmianaNazwyEventArgs.cs" selected="True" />
             </Node>
           </Node>
         </State>
