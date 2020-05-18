@@ -1,6 +1,6 @@
 ﻿namespace kartaOcenFilm
 {
-    internal class KartaStatystyki
+    public class KartaStatystyki
     {
         public float sredniaOcena;
         public float maksymalnaOcena;

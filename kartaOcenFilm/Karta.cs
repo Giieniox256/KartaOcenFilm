@@ -15,7 +15,7 @@ namespace kartaOcenFilm
 
         public static float wersja = 0.1f;
         public static double licznik = 0;
-        private List<float> oceny;
+        protected List<float> oceny;
         //public string Nazwa;
         private string _nazwa;
 
@@ -96,7 +96,7 @@ namespace kartaOcenFilm
             return oceny.Min();
         }
 
-        internal KartaStatystyki Obliczstatystyki() //hermetyzacja
+        public KartaStatystyki Obliczstatystyki() //hermetyzacja
         {
             KartaStatystyki stat = new KartaStatystyki();
 

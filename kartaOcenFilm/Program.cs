@@ -80,7 +80,7 @@ namespace kartaOcenFilm
 
             //Delegaty
 
-            Karta kartaD = new Karta();
+            Karta kartaD = new LepszaKarta();
             kartaD.ZmianaNazwy += new ZmianaNazwyDelegat(KiedyZmianaNazwy);
             kartaD.ZmianaNazwy += new ZmianaNazwyDelegat(KiedyZmianaNazwy2);
             kartaD.ZmianaNazwy += KiedyZmianaNazwy2;

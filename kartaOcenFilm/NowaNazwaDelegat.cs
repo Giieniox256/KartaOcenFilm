@@ -1,5 +1,5 @@
 ﻿using System;
 namespace kartaOcenFilm
 {
-    public delegate void ZmianaNazwyDelegat(string istniejacaNazwa, string nowaNazwa);
+    public delegate void ZmianaNazwyDelegat(object sender, ZmianaNazwyEventArgs args);
 }
